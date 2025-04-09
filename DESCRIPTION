@@ -1,0 +1,16 @@
+Package: ExampleJointRcppML
+Title: These are the full example data files for Joint NMF using the RcppML package. Data is from the TCGA-COAD PanCancer Atlas
+Version: 0.0.0.9000
+Authors@R: 
+    person("Mary", "Olesnavich", , "mary.olesnavich@vai.org", role = c("aut", "cre"))
+Description: This package is designed to easily load TCGA-COAD Methylation and RNAseq data to use as an example of Joint NMF analysis
+  with the Joint.RcppML package. Package is around 123 MB with compression.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+LazyData: true
+LazyDataCompression: bzip2
